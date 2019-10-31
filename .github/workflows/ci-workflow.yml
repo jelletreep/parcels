@@ -1,8 +1,5 @@
 name: test-suite
-on: 
-  push:
-    branches:
-    - master
+on: [push, pull_request]
 jobs:
   test_macOS:
     name: Testing on macOS
